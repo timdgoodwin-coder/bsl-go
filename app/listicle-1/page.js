@@ -215,11 +215,13 @@ export default function Listicle1() {
                 { decade: '60s', pct: 22 },
               ].map(({ decade, pct }) => (
                 <div className="nad-bar-group" key={decade}>
-                  <div
-                    className={`nad-bar ${pct < 60 ? 'dim' : ''}`}
-                    style={{ height: `${pct}%` }}
-                  >
-                    <span className="nad-bar-pct">{pct}%</span>
+                  <div className="nad-bar-wrap">
+                    <div
+                      className={`nad-bar ${pct < 60 ? 'dim' : ''}`}
+                      style={{ height: `${pct}%` }}
+                    >
+                      <span className="nad-bar-pct">{pct}%</span>
+                    </div>
                   </div>
                   <span className="nad-bar-decade">{decade}</span>
                 </div>
