@@ -333,7 +333,7 @@ h2.section-title em { font-style: normal; color: var(--amber-dark); }
   text-transform: uppercase;
   letter-spacing: 0.1em;
   color: rgba(255,255,255,0.45);
-  margin-bottom: 32px;
+  margin-bottom: 52px;
 }
 /* Bars row: fixed height so child % heights resolve */
 .nad-bars {

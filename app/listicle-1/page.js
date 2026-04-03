@@ -127,7 +127,7 @@ export default function Listicle1() {
                 <span>4.8 out of 5</span>
               </span>
               <span className="trust-sep" />
-              <span className="trust-item">2,400+ Verified Reviews</span>
+              <span className="trust-item">10,000+ High-Performing Customers</span>
               <span className="trust-sep" />
               <span className="trust-item">🛡️ 90-Day Guarantee</span>
               <span className="trust-sep" />
