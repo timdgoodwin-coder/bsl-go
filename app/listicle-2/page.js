@@ -193,9 +193,9 @@ export default function Listicle2() {
           <p style={{ marginTop: '16px' }}>
             It all comes back to one thing:
           </p>
-          <div className="pullquote" style={{ margin: '24px 0', color: 'var(--amber)' }}>
+          <div className="pullquote" style={{ margin: '24px 0', background: 'var(--black)', borderColor: 'var(--amber)', color: 'var(--amber-light)' }}>
             Cellular Energy  -  and the molecule at its centre:
-            <br /><span style={{ color: 'var(--white)', opacity: 0.9 }}>NAD+ (Nicotinamide Adenine Dinucleotide)</span>
+            <br /><span style={{ color: 'var(--white)', opacity: 1, fontWeight: 500 }}>NAD+ (Nicotinamide Adenine Dinucleotide)</span>
           </div>
           <p>NAD+ controls:</p>
           <div className="impact-pills">
