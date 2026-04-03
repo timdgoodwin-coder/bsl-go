@@ -108,27 +108,34 @@ export default function Listicle2() {
 
       {/* ── Hero ── */}
       <section className="hero">
-        <div className="hero-tag">NAD Regen · Longevity &amp; Aging</div>
-        <h1 className="fade-up">
-          You're Not <em>Old Yet</em>…<br />
-          But You Can Feel<br />
-          It Coming.
-        </h1>
-        <p className="hero-sub fade-up-delay-1">
-          Here's how to stay sharp, energised, and resilient
-          as the years go by  -  without leaving it too late.
-        </p>
-        <div className="trust-bar fade-up-delay-2">
-          <span className="trust-item">
-            <span className="stars">★★★★★</span>
-            <span>4.8 out of 5</span>
-          </span>
-          <span className="trust-sep" />
-          <span className="trust-item">2,400+ Verified Reviews</span>
-          <span className="trust-sep" />
-          <span className="trust-item">🛡️ 90-Day Guarantee</span>
-          <span className="trust-sep" />
-          <span className="trust-item">🚚 Free US Shipping</span>
+        <div className="hero-inner">
+          <div className="hero-copy">
+            <div className="hero-tag">NAD Regen · Longevity &amp; Aging</div>
+            <h1 className="fade-up">
+              You're Not <em>Old Yet</em>…<br />
+              But You Can Feel<br />
+              It Coming.
+            </h1>
+            <p className="hero-sub fade-up-delay-1">
+              Here's how to stay sharp, energised, and resilient
+              as the years go by  -  without leaving it too late.
+            </p>
+            <div className="trust-bar fade-up-delay-2">
+              <span className="trust-item">
+                <span className="stars">★★★★★</span>
+                <span>4.8 out of 5</span>
+              </span>
+              <span className="trust-sep" />
+              <span className="trust-item">2,400+ Verified Reviews</span>
+              <span className="trust-sep" />
+              <span className="trust-item">🛡️ 90-Day Guarantee</span>
+              <span className="trust-sep" />
+              <span className="trust-item">🚚 Free US Shipping</span>
+            </div>
+          </div>
+          <div className="hero-bottle fade-up-delay-1">
+            <img src="/nad-regen-bottle.png" alt="NAD Regen by BioStack Labs" className="hero-bottle-img" />
+          </div>
         </div>
       </section>
 
@@ -304,6 +311,11 @@ export default function Listicle2() {
               </ul>
             </div>
           </div>
+          {/* Ingredients image */}
+          <div className="ingredients-reveal">
+            <img src="/nad-regen-ingredients.png" alt="NAD Regen Supplement Facts" className="ingredients-img" />
+            <p className="ingredients-caption">Clinically-dosed. Every ingredient. Fully transparent label.</p>
+          </div>
         </section>
 
       </div>
@@ -452,6 +464,15 @@ export default function Listicle2() {
             <strong> you don't just age. You age well.</strong>
           </p>
         </section>
+      </div>
+
+      {/* ── Lifestyle Banner ── */}
+      <div className="lifestyle-banner">
+        <img src="/high-performer.jpg" alt="High performer using NAD Regen" className="lifestyle-img" />
+        <div className="lifestyle-overlay">
+          <p className="lifestyle-quote">"I feel like myself again."</p>
+          <p className="lifestyle-sub">Thousands of people across America start their morning with NAD Regen.</p>
+        </div>
       </div>
 
       {/* ── Guarantee ── */}

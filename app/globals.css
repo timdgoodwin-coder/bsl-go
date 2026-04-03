@@ -99,8 +99,32 @@ a { color: inherit; text-decoration: none; }
 .hero {
   background: var(--black);
   color: var(--white);
-  padding: 72px 24px 64px;
-  text-align: center;
+  padding: 64px 40px 56px;
+  text-align: left;
+}
+.hero-inner {
+  max-width: var(--max-wide);
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+.hero-copy {
+  flex: 1;
+  min-width: 0;
+}
+.hero-bottle {
+  flex-shrink: 0;
+  width: 260px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-bottle-img {
+  width: 100%;
+  height: auto;
+  mix-blend-mode: multiply;
+  filter: brightness(1.05) drop-shadow(0 20px 60px rgba(0,0,0,0.5));
 }
 .hero-tag {
   display: inline-block;
@@ -122,8 +146,8 @@ a { color: inherit; text-decoration: none; }
   line-height: 1.0;
   letter-spacing: 0.01em;
   text-transform: uppercase;
-  max-width: 800px;
-  margin: 0 auto 20px;
+  max-width: 640px;
+  margin: 0 0 20px;
 }
 .hero h1 em {
   font-style: normal;
@@ -134,8 +158,8 @@ a { color: inherit; text-decoration: none; }
   font-size: clamp(16px, 2.5vw, 20px);
   font-weight: 400;
   color: rgba(255,255,255,0.72);
-  max-width: 580px;
-  margin: 0 auto 36px;
+  max-width: 520px;
+  margin: 0 0 36px;
   line-height: 1.6;
 }
 
@@ -783,3 +807,87 @@ h2.section-title em { font-style: normal; color: var(--amber-dark); }
 .fade-up-delay-1 { animation-delay: 0.1s; opacity: 0; animation: fadeUp 0.6s 0.1s ease forwards; }
 .fade-up-delay-2 { animation-delay: 0.2s; opacity: 0; animation: fadeUp 0.6s 0.2s ease forwards; }
 .fade-up-delay-3 { animation-delay: 0.3s; opacity: 0; animation: fadeUp 0.6s 0.3s ease forwards; }
+
+/* ─── Ingredients Reveal ─────────────────────────────────────────────────── */
+.ingredients-reveal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 36px 0 8px;
+  padding: 32px;
+  background: var(--cream);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+}
+.ingredients-img {
+  max-width: 340px;
+  width: 100%;
+  height: auto;
+  display: block;
+  filter: drop-shadow(0 8px 32px rgba(0,0,0,0.12));
+}
+.ingredients-caption {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-align: center;
+  margin-top: 16px;
+  letter-spacing: 0.01em;
+}
+
+/* ─── Lifestyle Banner ────────────────────────────────────────────────────── */
+.lifestyle-banner {
+  position: relative;
+  overflow: hidden;
+  max-height: 520px;
+}
+.lifestyle-img {
+  width: 100%;
+  height: 520px;
+  object-fit: cover;
+  object-position: center 20%;
+  display: block;
+}
+.lifestyle-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to right, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.25) 55%, transparent 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 48px 64px;
+}
+.lifestyle-quote {
+  font-family: var(--font-heading);
+  font-weight: 900;
+  font-size: clamp(32px, 5vw, 56px);
+  color: var(--white);
+  text-transform: uppercase;
+  letter-spacing: 0.01em;
+  line-height: 1.05;
+  margin-bottom: 16px;
+  max-width: 500px;
+}
+.lifestyle-sub {
+  font-size: 17px;
+  color: rgba(255,255,255,0.75);
+  max-width: 400px;
+  line-height: 1.65;
+  font-weight: 500;
+}
+
+/* ─── Responsive: new image components ───────────────────────────────────── */
+@media (max-width: 760px) {
+  .hero { padding: 48px 20px 40px; text-align: center; }
+  .hero-inner { flex-direction: column-reverse; gap: 24px; }
+  .hero-copy { text-align: center; }
+  .hero h1 { margin: 0 auto 20px; }
+  .hero .hero-sub { margin: 0 auto 28px; }
+  .hero-bottle { width: 180px; }
+  .lifestyle-overlay { padding: 28px 28px; }
+  .lifestyle-img { height: 340px; }
+  .lifestyle-quote { font-size: 26px; max-width: 280px; }
+  .lifestyle-sub { font-size: 15px; }
+  .ingredients-reveal { padding: 20px; }
+  .ingredients-img { max-width: 240px; }
+}

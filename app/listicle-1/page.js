@@ -109,27 +109,34 @@ export default function Listicle1() {
 
       {/* ── Hero ── */}
       <section className="hero">
-        <div className="hero-tag">NAD Regen · Brain Performance</div>
-        <h1 className="fade-up">
-          7 Signs Your Brain<br />
-          Is <em>Aging Too Fast</em><br />
-          (And What To Do About It)
-        </h1>
-        <p className="hero-sub fade-up-delay-1">
-          If you've noticed your focus slipping, energy crashing, or memory
-          faltering  -  this isn't just stress. Here's what's really going on.
-        </p>
-        <div className="trust-bar fade-up-delay-2">
-          <span className="trust-item">
-            <span className="stars">★★★★★</span>
-            <span>4.8 out of 5</span>
-          </span>
-          <span className="trust-sep" />
-          <span className="trust-item">2,400+ Verified Reviews</span>
-          <span className="trust-sep" />
-          <span className="trust-item">🛡️ 90-Day Guarantee</span>
-          <span className="trust-sep" />
-          <span className="trust-item">🚚 Free US Shipping</span>
+        <div className="hero-inner">
+          <div className="hero-copy">
+            <div className="hero-tag">NAD Regen · Brain Performance</div>
+            <h1 className="fade-up">
+              7 Signs Your Brain<br />
+              Is <em>Aging Too Fast</em><br />
+              (And What To Do About It)
+            </h1>
+            <p className="hero-sub fade-up-delay-1">
+              If you've noticed your focus slipping, energy crashing, or memory
+              faltering  -  this isn't just stress. Here's what's really going on.
+            </p>
+            <div className="trust-bar fade-up-delay-2">
+              <span className="trust-item">
+                <span className="stars">★★★★★</span>
+                <span>4.8 out of 5</span>
+              </span>
+              <span className="trust-sep" />
+              <span className="trust-item">2,400+ Verified Reviews</span>
+              <span className="trust-sep" />
+              <span className="trust-item">🛡️ 90-Day Guarantee</span>
+              <span className="trust-sep" />
+              <span className="trust-item">🚚 Free US Shipping</span>
+            </div>
+          </div>
+          <div className="hero-bottle fade-up-delay-1">
+            <img src="/nad-regen-bottle.png" alt="NAD Regen by BioStack Labs" className="hero-bottle-img" />
+          </div>
         </div>
       </section>
 
@@ -295,6 +302,11 @@ export default function Listicle1() {
               </ul>
             </div>
           </div>
+          {/* Ingredients image */}
+          <div className="ingredients-reveal">
+            <img src="/nad-regen-ingredients.png" alt="NAD Regen Supplement Facts" className="ingredients-img" />
+            <p className="ingredients-caption">Clinically-dosed. Every ingredient. No proprietary blends hidden from view.</p>
+          </div>
           <div className="arrow-point" style={{ marginTop: '24px' }}>
             <span className="ap-arrow">👉</span>
             <span>This isn't a quick hit. It's a system reset.</span>
@@ -434,6 +446,15 @@ export default function Listicle1() {
             have the energy they need  -  <strong>everything changes.</strong>
           </p>
         </section>
+      </div>
+
+      {/* ── Lifestyle Banner ── */}
+      <div className="lifestyle-banner">
+        <img src="/high-performer.jpg" alt="High performer using NAD Regen" className="lifestyle-img" />
+        <div className="lifestyle-overlay">
+          <p className="lifestyle-quote">"I feel like myself again."</p>
+          <p className="lifestyle-sub">Thousands of people across America start their morning with NAD Regen.</p>
+        </div>
       </div>
 
       {/* ── Guarantee ── */}
