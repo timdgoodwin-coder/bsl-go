@@ -9,7 +9,7 @@ const SIGNS = [
     title: "You're Thinking About The Future… Differently",
     body: [
       '"Will I still feel like me in 10 years?"',
-      '"Will I have the energy to keep up — with work, family, life?"',
+      '"Will I have the energy to keep up  -  with work, family, life?"',
       '"Will I still be sharp?"',
       "This isn't insecurity. It's awareness. You're starting to realise that how you feel now isn't guaranteed forever.",
     ],
@@ -22,7 +22,7 @@ const SIGNS = [
       "It used to be nothing.",
       "Now? It lingers.",
     ],
-    callout: "Your body takes longer to reset — and that's one of the earliest signs your cellular repair systems are slowing down.",
+    callout: "Your body takes longer to reset  -  and that's one of the earliest signs your cellular repair systems are slowing down.",
   },
   {
     title: "Your Energy Feels Less \"Reliable\"",
@@ -31,7 +31,7 @@ const SIGNS = [
       "More caffeine. More pushing through.",
       "You're working harder for the same output.",
     ],
-    callout: "That's the shift — and it's not motivation. It's biology.",
+    callout: "That's the shift  -  and it's not motivation. It's biology.",
   },
   {
     title: "You're Struggling To Be Fully Present",
@@ -40,7 +40,7 @@ const SIGNS = [
       "You don't just want to 'get by.' You want to be present, energised, engaged.",
       "Not tired. Not distracted. Not running on empty.",
     ],
-    callout: "You want to be there — fully — for the people who matter most.",
+    callout: "You want to be there  -  fully  -  for the people who matter most.",
   },
   {
     title: "You Feel Burnout Creeping In Faster",
@@ -99,8 +99,7 @@ export default function Listicle2() {
       {/* ── Nav ── */}
       <nav className="site-nav">
         <div className="logo">
-          <span>BIO</span>
-          <span>STACK</span>
+          <img src="/bsl-logo-dark.png" alt="BioStack Labs" className="logo-img" />
         </div>
         <a href={CTA_URL} className="nav-cta" id="nav-cta-l2">
           Try NAD Regen →
@@ -117,7 +116,7 @@ export default function Listicle2() {
         </h1>
         <p className="hero-sub fade-up-delay-1">
           Here's how to stay sharp, energised, and resilient
-          as the years go by — without leaving it too late.
+          as the years go by  -  without leaving it too late.
         </p>
         <div className="trust-bar fade-up-delay-2">
           <span className="trust-item">
@@ -139,7 +138,7 @@ export default function Listicle2() {
         {/* Intro */}
         <section className="intro-section">
           <p>
-            You don't feel "old" — but you've started noticing things.
+            You don't feel "old"  -  but you've started noticing things.
           </p>
           <p>
             You don't bounce back like you used to. Your energy isn't as reliable.
@@ -150,7 +149,7 @@ export default function Listicle2() {
           <p>
             You push it aside. <em>"I'm just busy." "I need better sleep." "It's just stress."</em>
           </p>
-          <p>But deep down — you know it's more than that.</p>
+          <p>But deep down  -  you know it's more than that.</p>
           <p>
             The hardest part? Now life is busier than ever, with more responsibility
             weighing on your shoulders than at any point before. You can't afford to
@@ -194,7 +193,7 @@ export default function Listicle2() {
             It all comes back to one thing:
           </p>
           <div className="pullquote" style={{ margin: '24px 0', color: 'var(--amber)' }}>
-            Cellular Energy — and the molecule at its centre:
+            Cellular Energy  -  and the molecule at its centre:
             <br /><span style={{ color: 'var(--white)', opacity: 0.9 }}>NAD+ (Nicotinamide Adenine Dinucleotide)</span>
           </div>
           <p>NAD+ controls:</p>
@@ -268,7 +267,7 @@ export default function Listicle2() {
           </div>
           <div className="arrow-point">
             <span className="ap-arrow">👉</span>
-            <span>They're not addressing the root cause of NAD decline — which means that gap just keeps getting wider and wider.</span>
+            <span>They're not addressing the root cause of NAD decline  -  which means that gap just keeps getting wider and wider.</span>
           </div>
         </section>
 
@@ -295,11 +294,11 @@ export default function Listicle2() {
             <div className="comp-col good">
               <h4><span>✅</span> NAD Regen by BioStack</h4>
               <ul className="comp-list">
-                <li><span className="icon">✅</span><span>Addresses the <strong>root cause</strong> of NAD decline — uniquely</span></li>
-                <li><span className="icon">✅</span><span>Powered by <strong>NAD3®</strong> — clinically studied to produce &amp; protect NAD</span></li>
+                <li><span className="icon">✅</span><span>Addresses the <strong>root cause</strong> of NAD decline  -  uniquely</span></li>
+                <li><span className="icon">✅</span><span>Powered by <strong>NAD3®</strong>  -  clinically studied to produce &amp; protect NAD</span></li>
                 <li><span className="icon">✅</span><span>Improves cellular <strong>efficiency</strong> over time, not just acutely</span></li>
                 <li><span className="icon">✅</span><span>A long-term <strong>aging strategy</strong>, not a stimulant</span></li>
-                <li><span className="icon">✅</span><span>Simple daily capsule — <strong>consistent and easy</strong></span></li>
+                <li><span className="icon">✅</span><span>Simple daily capsule  -  <strong>consistent and easy</strong></span></li>
               </ul>
             </div>
           </div>
@@ -321,7 +320,7 @@ export default function Listicle2() {
               <div className="step-body">
                 <div className="step-when">Weeks 1–3</div>
                 <h4>Subtle Improvements Begin</h4>
-                <p>Subtle improvements in clarity and energy. Things feel slightly lighter. You may not be able to articulate it yet — but something is shifting at the cellular level.</p>
+                <p>Subtle improvements in clarity and energy. Things feel slightly lighter. You may not be able to articulate it yet  -  but something is shifting at the cellular level.</p>
               </div>
             </div>
             <div className="timeline-step">
@@ -337,7 +336,7 @@ export default function Listicle2() {
               <div className="step-body">
                 <div className="step-when">90 Days</div>
                 <h4>You Feel Like Yourself Again 🚀</h4>
-                <p>You feel more like yourself again — and more than that, you feel genuinely good about the fact you're now <strong>ahead of the curve.</strong> Not just living longer — but living better.</p>
+                <p>You feel more like yourself again  -  and more than that, you feel genuinely good about the fact you're now <strong>ahead of the curve.</strong> Not just living longer  -  but living better.</p>
               </div>
             </div>
           </div>
@@ -394,7 +393,7 @@ export default function Listicle2() {
                 "You care about long-term health",
                 "You don't want to \"slow down early\"",
                 "You want energy you can rely on",
-                "You want to be present for your family — fully",
+                "You want to be present for your family  -  fully",
               ].map((item, i) => (
                 <li key={i}><span className="tick">✔</span><span>{item}</span></li>
               ))}
@@ -420,13 +419,13 @@ export default function Listicle2() {
           <p>That's fair. Most products in this space don't deliver. Which is exactly why NAD Regen was built differently.</p>
           <p>
             When we launched 4 years ago, we didn't have huge marketing budgets.
-            All we had was a product that really made a difference — and we counted on
+            All we had was a product that really made a difference  -  and we counted on
             that to be our point of differentiation. That strategy worked. Because NAD Regen
             delivers on its promise.
           </p>
           <p>
             Today, thousands of people across America begin their morning with 2 capsules
-            of NAD Regen — because of the trust we've earned. There is a reason our repeat
+            of NAD Regen  -  because of the trust we've earned. There is a reason our repeat
             purchase is so high. There is a reason why reviews reference years, not weeks.
           </p>
         </div>
@@ -447,7 +446,7 @@ export default function Listicle2() {
           </div>
           <p style={{ fontSize: '18px', color: 'var(--text-mid)', lineHeight: '1.75' }}>
             You can stay sharp. Stay energised. Stay resilient. But only if you support
-            what your body is losing. Because when your cells have the energy they need —
+            what your body is losing. Because when your cells have the energy they need  - 
             <strong> you don't just age. You age well.</strong>
           </p>
         </section>
@@ -460,8 +459,8 @@ export default function Listicle2() {
           <h2>90-Day Risk-Free Guarantee</h2>
           <div className="big-text">Try It. Feel It. Or Get 100% Back.</div>
           <p>
-            Use NAD Regen for 90 days, risk free. If you don't feel a difference — energy,
-            focus, resilience — get every penny back, no questions asked.
+            Use NAD Regen for 90 days, risk free. If you don't feel a difference  -  energy,
+            focus, resilience  -  get every penny back, no questions asked.
           </p>
           <p>
             Sadly, most supplements are a complete waste of money. To build real trust,
@@ -476,11 +475,11 @@ export default function Listicle2() {
           <span className="section-label" style={{ display: 'block', textAlign: 'center' }}>Your Starting Point</span>
           <h2>🚀 Start Your<br /><em>90-Day</em> Journey Today</h2>
           <p>
-            Not just living longer — but living better.
+            Not just living longer  -  but living better.
             Energy you can rely on. Focus that holds up. A future you're genuinely excited about.
           </p>
           <a href={CTA_URL} className="cta-btn" id="cta-btn-l2-bottom">
-            <span>Get NAD Regen — Triple Pack</span>
+            <span>Get NAD Regen  -  Triple Pack</span>
             <span className="btn-arrow">→</span>
           </a>
           <div className="cta-sub">
@@ -492,7 +491,9 @@ export default function Listicle2() {
 
       {/* ── Footer ── */}
       <footer className="site-footer">
-        <div className="footer-logo">BIO STACK LABS</div>
+        <div className="footer-logo">
+          <img src="/bsl-logo-dark.png" alt="BioStack Labs" className="footer-logo-img" />
+        </div>
         <p>
           These statements have not been evaluated by the Food and Drug Administration.
           This product is not intended to diagnose, treat, cure, or prevent any disease.

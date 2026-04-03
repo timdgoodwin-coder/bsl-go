@@ -10,16 +10,16 @@ const SIGNS = [
     body: [
       "You used to be sharp. Quick. On it.",
       "Now? It takes longer to think, decide, and respond.",
-      "That's not just \"life.\" It's often a drop in your body's ability to produce cellular energy — especially in your brain.",
+      "That's not just \"life.\" It's often a drop in your body's ability to produce cellular energy  -  especially in your brain.",
     ],
-    callout: "Hold on to that phrase: \"cellular energy.\" We'll revisit it — and explain why it's slowing your brain down.",
+    callout: "Hold on to that phrase: \"cellular energy.\" We'll revisit it  -  and explain why it's slowing your brain down.",
   },
   {
     title: "Brain Fog Is Becoming Your \"Normal\"",
     body: [
       "You wake up… already foggy.",
       "Coffee helps. A bit. But the clarity never fully returns.",
-      "This isn't just fatigue — it's your brain struggling to fuel itself efficiently.",
+      "This isn't just fatigue  -  it's your brain struggling to fuel itself efficiently.",
     ],
     callout: null,
   },
@@ -28,7 +28,7 @@ const SIGNS = [
     body: [
       "Some days you're fine.",
       "Other days you hit a wall by 2pm.",
-      "This rollercoaster isn't random. It's tied to how well your cells are producing — and recovering — energy.",
+      "This rollercoaster isn't random. It's tied to how well your cells are producing  -  and recovering  -  energy.",
     ],
     callout: null,
   },
@@ -46,7 +46,7 @@ const SIGNS = [
     body: [
       "Same workload. Less resilience.",
       "Being present for loved ones feels hard because your energy is never quite \"topped up.\"",
-      "You need more time to recover — mentally and physically. That's a signal your body's repair systems are slowing down.",
+      "You need more time to recover  -  mentally and physically. That's a signal your body's repair systems are slowing down.",
     ],
     callout: null,
   },
@@ -70,12 +70,12 @@ const SIGNS = [
 ];
 
 const REVIEWS = [
-  { file: 'review-01.png', alt: 'Tyler Kallasy — Noticing a difference!' },
-  { file: 'review-02.png', alt: 'Drew — 1 year later, I love this stuff!' },
-  { file: 'review-03.png', alt: 'Bryan Krahn — NAD Regen WORKS' },
-  { file: 'review-04.png', alt: 'Smokey — NAD Regen is amazing' },
-  { file: 'review-05.png', alt: 'Slaterraider — Started feeling better after only a few days' },
-  { file: 'review-06.png', alt: 'Anonymous — NAD REGEN is a winner!' },
+  { file: 'review-01.png', alt: 'Tyler Kallasy  -  Noticing a difference!' },
+  { file: 'review-02.png', alt: 'Drew  -  1 year later, I love this stuff!' },
+  { file: 'review-03.png', alt: 'Bryan Krahn  -  NAD Regen WORKS' },
+  { file: 'review-04.png', alt: 'Smokey  -  NAD Regen is amazing' },
+  { file: 'review-05.png', alt: 'Slaterraider  -  Started feeling better after only a few days' },
+  { file: 'review-06.png', alt: 'Anonymous  -  NAD REGEN is a winner!' },
 ];
 
 export default function Listicle1() {
@@ -100,8 +100,7 @@ export default function Listicle1() {
       {/* ── Nav ── */}
       <nav className="site-nav">
         <div className="logo">
-          <span>BIO</span>
-          <span>STACK</span>
+          <img src="/bsl-logo-dark.png" alt="BioStack Labs" className="logo-img" />
         </div>
         <a href={CTA_URL} className="nav-cta" id="nav-cta-l1">
           Try NAD Regen →
@@ -118,7 +117,7 @@ export default function Listicle1() {
         </h1>
         <p className="hero-sub fade-up-delay-1">
           If you've noticed your focus slipping, energy crashing, or memory
-          faltering — this isn't just stress. Here's what's really going on.
+          faltering  -  this isn't just stress. Here's what's really going on.
         </p>
         <div className="trust-bar fade-up-delay-2">
           <span className="trust-item">
@@ -151,7 +150,7 @@ export default function Listicle1() {
           <div className="hook-line">But what if it's something deeper?</div>
           <p>
             Because the truth is, for a growing number of driven, high-performing
-            people in their 30s, 40s, and 50s — these aren't just lifestyle symptoms.
+            people in their 30s, 40s, and 50s  -  these aren't just lifestyle symptoms.
             They're biological signals from the inside out.
           </p>
         </section>
@@ -194,7 +193,7 @@ export default function Listicle1() {
           <p>There's one molecule at the centre of all of this:</p>
 
           <div className="pullquote" style={{ margin: '28px 0' }}>
-            NAD+ — <em>Nicotinamide Adenine Dinucleotide</em>
+            NAD+  -  <em>Nicotinamide Adenine Dinucleotide</em>
           </div>
 
           <p>It's responsible for:</p>
@@ -233,7 +232,7 @@ export default function Listicle1() {
 
           <p style={{ marginTop: '20px' }}>
             Low NAD isn't just about "feeling tired." It directly impacts your
-            mental clarity, focus, energy, recovery — and your long-term brain health.
+            mental clarity, focus, energy, recovery  -  and your long-term brain health.
           </p>
           <div className="nad-arrow">👉 <span>Once it drops… everything feels harder.</span></div>
         </div>
@@ -276,18 +275,18 @@ export default function Listicle1() {
             <div className="comp-col bad">
               <h4><span>❌</span> What Most People Try</h4>
               <ul className="comp-list">
-                <li><span className="icon">❌</span><span><strong>NMN</strong> — Works "OK" but doesn't address the root cause of NAD decline</span></li>
-                <li><span className="icon">❌</span><span><strong>NAD IVs</strong> — $500 per session, 2–3 hours long, makes you feel sick, no lasting benefit</span></li>
-                <li><span className="icon">❌</span><span><strong>NAD Injections</strong> — Expensive, inconvenient, still don't fix root cause</span></li>
-                <li><span className="icon">❌</span><span><strong>More caffeine</strong> — Masks the symptom, accelerates the crash</span></li>
-                <li><span className="icon">❌</span><span><strong>Random supplements</strong> — Not addressing what's actually declining</span></li>
+                <li><span className="icon">❌</span><span><strong>NMN</strong>  -  Works "OK" but doesn't address the root cause of NAD decline</span></li>
+                <li><span className="icon">❌</span><span><strong>NAD IVs</strong>  -  $500 per session, 2–3 hours long, makes you feel sick, no lasting benefit</span></li>
+                <li><span className="icon">❌</span><span><strong>NAD Injections</strong>  -  Expensive, inconvenient, still don't fix root cause</span></li>
+                <li><span className="icon">❌</span><span><strong>More caffeine</strong>  -  Masks the symptom, accelerates the crash</span></li>
+                <li><span className="icon">❌</span><span><strong>Random supplements</strong>  -  Not addressing what's actually declining</span></li>
               </ul>
             </div>
             <div className="comp-col good">
               <h4><span>✅</span> NAD Regen by BioStack</h4>
               <ul className="comp-list">
-                <li><span className="icon">✅</span><span>Targets the <strong>root cause</strong> of NAD decline — not just symptoms</span></li>
-                <li><span className="icon">✅</span><span>Powered by <strong>NAD3®</strong> — clinically studied, peer-reviewed ingredient</span></li>
+                <li><span className="icon">✅</span><span>Targets the <strong>root cause</strong> of NAD decline  -  not just symptoms</span></li>
+                <li><span className="icon">✅</span><span>Powered by <strong>NAD3®</strong>  -  clinically studied, peer-reviewed ingredient</span></li>
                 <li><span className="icon">✅</span><span>Designed for <strong>real absorption</strong> and daily consistency</span></li>
                 <li><span className="icon">✅</span><span>Supports natural NAD <strong>production, protection, and recycling</strong></span></li>
                 <li><span className="icon">✅</span><span>Built for <strong>long-term</strong> brain + energy + longevity performance</span></li>
@@ -316,7 +315,7 @@ export default function Listicle1() {
               <div className="step-body">
                 <div className="step-when">Weeks 1–3</div>
                 <h4>Subtle Shifts Begin</h4>
-                <p>Clearer thinking starts to emerge. Energy feels marginally more stable. Your sleep quality may improve. Most users report something feels "different" — even if they can't pinpoint exactly what.</p>
+                <p>Clearer thinking starts to emerge. Energy feels marginally more stable. Your sleep quality may improve. Most users report something feels "different"  -  even if they can't pinpoint exactly what.</p>
               </div>
             </div>
             <div className="timeline-step">
@@ -332,7 +331,7 @@ export default function Listicle1() {
               <div className="step-body">
                 <div className="step-when">90 Days</div>
                 <h4>Full Compounding Effect 🚀</h4>
-                <p>This is where people say: <strong>"I feel like myself again."</strong> Sustained energy. Sharp thinking. Better recovery. And the quiet confidence of knowing you're actively investing in your long-term brain health — ahead of the curve.</p>
+                <p>This is where people say: <strong>"I feel like myself again."</strong> Sustained energy. Sharp thinking. Better recovery. And the quiet confidence of knowing you're actively investing in your long-term brain health  -  ahead of the curve.</p>
               </div>
             </div>
           </div>
@@ -374,7 +373,7 @@ export default function Listicle1() {
               {[
                 "You're driven, but feel mentally slower",
                 "You rely on caffeine just to function",
-                "You want long-term brain performance — not quick fixes",
+                "You want long-term brain performance  -  not quick fixes",
                 "You care about longevity and staying sharp",
                 "You're actively investing in your health for the long term",
               ].map((item, i) => (
@@ -406,18 +405,18 @@ export default function Listicle1() {
           <p>
             The longevity space is littered with overhyped products and influencer-backed
             nonsense. We get it. That healthy scepticism has cost legitimate products a fair
-            shake — and we've earned our reputation the hard way.
+            shake  -  and we've earned our reputation the hard way.
           </p>
           <p>
             When we launched NAD Regen 4 years ago, we had no marketing budget.
             Just a product that actually worked. Thousands of people across America
-            now start their morning with 2 capsules of NAD Regen — because of the
+            now start their morning with 2 capsules of NAD Regen  -  because of the
             trust we've built one result at a time.
           </p>
           <p>
             <strong>The simple way to address this:</strong> Try NAD Regen for 90 days.
             You'll get it. There's a reason our repeat purchase rate is so high.
-            There's a reason the reviews reference years — not weeks — of use.
+            There's a reason the reviews reference years  -  not weeks  -  of use.
           </p>
         </div>
 
@@ -430,7 +429,7 @@ export default function Listicle1() {
           </p>
           <p style={{ fontSize: '18px', color: 'var(--text-mid)', lineHeight: '1.75' }}>
             You just need to restore what your body is missing. Because once your cells
-            have the energy they need — <strong>everything changes.</strong>
+            have the energy they need  -  <strong>everything changes.</strong>
           </p>
         </section>
       </div>
@@ -443,7 +442,7 @@ export default function Listicle1() {
           <div className="big-text">Use It. Feel It. Or Get 100% Back.</div>
           <p>
             Use NAD Regen for a full 90 days. If you don't feel a meaningful
-            difference in your clarity, energy, and resilience — get every penny back.
+            difference in your clarity, energy, and resilience  -  get every penny back.
           </p>
           <p>No questions asked. No small print. No hassle.</p>
           <p style={{ marginTop: '16px' }}>
@@ -460,10 +459,10 @@ export default function Listicle1() {
           <h2>Try NAD Regen<br />for <em>90 Days, Risk Free</em></h2>
           <p>
             If you're serious about sharper thinking, better energy, and
-            long-term brain performance — this is where you start.
+            long-term brain performance  -  this is where you start.
           </p>
           <a href={CTA_URL} className="cta-btn" id="cta-btn-l1-bottom">
-            <span>Get NAD Regen — Triple Pack</span>
+            <span>Get NAD Regen  -  Triple Pack</span>
             <span className="btn-arrow">→</span>
           </a>
           <div className="cta-sub">
@@ -475,7 +474,9 @@ export default function Listicle1() {
 
       {/* ── Footer ── */}
       <footer className="site-footer">
-        <div className="footer-logo">BIO STACK LABS</div>
+        <div className="footer-logo">
+          <img src="/bsl-logo-dark.png" alt="BioStack Labs" className="footer-logo-img" />
+        </div>
         <p>
           These statements have not been evaluated by the Food and Drug Administration.
           This product is not intended to diagnose, treat, cure, or prevent any disease.
