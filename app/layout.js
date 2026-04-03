@@ -1,4 +1,5 @@
 import './globals.css';
+import Script from 'next/script';
 
 export const metadata = {
   title: 'BioStack Labs',
@@ -19,6 +20,11 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body>{children}</body>
+      <Script
+        id="goaffpro-script"
+        src="https://api.goaffpro.com/loader.js?shop=biostack-labs.myshopify.com"
+        strategy="afterInteractive"
+      />
     </html>
   );
 }
