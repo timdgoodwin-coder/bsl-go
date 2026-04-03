@@ -109,34 +109,27 @@ export default function Listicle1() {
 
       {/* ── Hero ── */}
       <section className="hero">
-        <div className="hero-inner">
-          <div className="hero-copy">
-            <div className="hero-tag">NAD Regen · Brain Performance</div>
-            <h1 className="fade-up">
-              7 Signs Your Brain<br />
-              Is <em>Aging Too Fast</em><br />
-              (And What To Do About It)
-            </h1>
-            <p className="hero-sub fade-up-delay-1">
-              If you've noticed your focus slipping, energy crashing, or memory
-              faltering  -  this isn't just stress. Here's what's really going on.
-            </p>
-            <div className="trust-bar fade-up-delay-2">
-              <span className="trust-item">
-                <span className="stars">★★★★★</span>
-                <span>4.8 out of 5</span>
-              </span>
-              <span className="trust-sep" />
-              <span className="trust-item">10,000+ High-Performing Customers</span>
-              <span className="trust-sep" />
-              <span className="trust-item">🛡️ 90-Day Guarantee</span>
-              <span className="trust-sep" />
-              <span className="trust-item">🚚 Free US Shipping</span>
-            </div>
-          </div>
-          <div className="hero-bottle fade-up-delay-1">
-            <img src="/nad-regen-bottle.png" alt="NAD Regen by BioStack Labs" className="hero-bottle-img" />
-          </div>
+        <div className="hero-tag">NAD Regen · Brain Performance</div>
+        <h1 className="fade-up">
+          7 Signs Your Brain<br />
+          Is <em>Aging Too Fast</em><br />
+          (And What To Do About It)
+        </h1>
+        <p className="hero-sub fade-up-delay-1">
+          If you've noticed your focus slipping, energy crashing, or memory
+          faltering  -  this isn't just stress. Here's what's really going on.
+        </p>
+        <div className="trust-bar fade-up-delay-2">
+          <span className="trust-item">
+            <span className="stars">★★★★★</span>
+            <span>4.8 out of 5</span>
+          </span>
+          <span className="trust-sep" />
+          <span className="trust-item">10,000+ High-Performing Customers</span>
+          <span className="trust-sep" />
+          <span className="trust-item">🛡️ 90-Day Guarantee</span>
+          <span className="trust-sep" />
+          <span className="trust-item">🚚 Free US Shipping</span>
         </div>
       </section>
 

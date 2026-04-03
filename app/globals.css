@@ -100,32 +100,8 @@ a { color: inherit; text-decoration: none; }
 .hero {
   background: var(--black);
   color: var(--white);
-  padding: 64px 40px 56px;
-  text-align: left;
-}
-.hero-inner {
-  max-width: var(--max-wide);
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  gap: 48px;
-}
-.hero-copy {
-  flex: 1;
-  min-width: 0;
-}
-.hero-bottle {
-  flex-shrink: 0;
-  width: 260px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.hero-bottle-img {
-  width: 100%;
-  height: auto;
-  mix-blend-mode: multiply;
-  filter: brightness(1.05) drop-shadow(0 20px 60px rgba(0,0,0,0.5));
+  padding: 72px 24px 64px;
+  text-align: center;
 }
 .hero-tag {
   display: inline-block;
@@ -147,8 +123,8 @@ a { color: inherit; text-decoration: none; }
   line-height: 1.0;
   letter-spacing: 0.01em;
   text-transform: uppercase;
-  max-width: 640px;
-  margin: 0 0 20px;
+  max-width: 800px;
+  margin: 0 auto 20px;
 }
 .hero h1 em {
   font-style: normal;
@@ -159,8 +135,8 @@ a { color: inherit; text-decoration: none; }
   font-size: clamp(16px, 2.5vw, 20px);
   font-weight: 400;
   color: rgba(255,255,255,0.72);
-  max-width: 520px;
-  margin: 0 0 36px;
+  max-width: 580px;
+  margin: 0 auto 36px;
   line-height: 1.6;
 }
 
@@ -872,12 +848,6 @@ h2.section-title em { font-style: italic; color: var(--amber-dark); }
 
 /* ─── Responsive: new image components ───────────────────────────────────── */
 @media (max-width: 760px) {
-  .hero { padding: 48px 20px 40px; text-align: center; }
-  .hero-inner { flex-direction: column-reverse; gap: 24px; }
-  .hero-copy { text-align: center; }
-  .hero h1 { margin: 0 auto 20px; }
-  .hero .hero-sub { margin: 0 auto 28px; }
-  .hero-bottle { width: 180px; }
   .lifestyle-overlay { padding: 28px 28px; }
   .lifestyle-img { height: 340px; }
   .lifestyle-quote { font-size: 26px; max-width: 280px; }

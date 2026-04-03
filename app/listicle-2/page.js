@@ -107,35 +107,29 @@ export default function Listicle2() {
       </nav>
 
       {/* ── Hero ── */}
+      {/* ── Hero ── */}
       <section className="hero">
-        <div className="hero-inner">
-          <div className="hero-copy">
-            <div className="hero-tag">NAD Regen · Longevity &amp; Aging</div>
-            <h1 className="fade-up">
-              You're Not <em>Old Yet</em>…<br />
-              But You Can Feel<br />
-              It Coming.
-            </h1>
-            <p className="hero-sub fade-up-delay-1">
-              Here's how to stay sharp, energised, and resilient
-              as the years go by  -  without leaving it too late.
-            </p>
-            <div className="trust-bar fade-up-delay-2">
-              <span className="trust-item">
-                <span className="stars">★★★★★</span>
-                <span>4.8 out of 5</span>
-              </span>
-              <span className="trust-sep" />
-              <span className="trust-item">10,000+ High-Performing Customers</span>
-              <span className="trust-sep" />
-              <span className="trust-item">🛡️ 90-Day Guarantee</span>
-              <span className="trust-sep" />
-              <span className="trust-item">🚚 Free US Shipping</span>
-            </div>
-          </div>
-          <div className="hero-bottle fade-up-delay-1">
-            <img src="/nad-regen-bottle.png" alt="NAD Regen by BioStack Labs" className="hero-bottle-img" />
-          </div>
+        <div className="hero-tag">NAD Regen · Longevity &amp; Aging</div>
+        <h1 className="fade-up">
+          You're Not <em>Old Yet</em>…<br />
+          But You Can Feel<br />
+          It Coming.
+        </h1>
+        <p className="hero-sub fade-up-delay-1">
+          Here's how to stay sharp, energised, and resilient
+          as the years go by  -  without leaving it too late.
+        </p>
+        <div className="trust-bar fade-up-delay-2">
+          <span className="trust-item">
+            <span className="stars">★★★★★</span>
+            <span>4.8 out of 5</span>
+          </span>
+          <span className="trust-sep" />
+          <span className="trust-item">10,000+ High-Performing Customers</span>
+          <span className="trust-sep" />
+          <span className="trust-item">🛡️ 90-Day Guarantee</span>
+          <span className="trust-sep" />
+          <span className="trust-item">🚚 Free US Shipping</span>
         </div>
       </section>
 
