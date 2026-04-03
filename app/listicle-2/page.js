@@ -375,7 +375,7 @@ export default function Listicle2() {
             <div className="reviews-score">4.8</div>
             <div className="reviews-meta">
               <div className="reviews-stars">★★★★★</div>
-              <div className="reviews-count">Based on 2,400+ verified purchases</div>
+              <div className="reviews-count">Based on 10,000+ High-Performing Customers</div>
             </div>
           </div>
           <div className="reviews-grid">
